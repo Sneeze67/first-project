@@ -190,7 +190,7 @@ fafd99b Добавление реадме
 
 ```mermaid
 graph LR;
-	untracked -- "git add" --> staged + tracked;
+	untracked -- "git add" --> "staged + tracked";
 	staged -- "Изменения" --> modified;
 	tracked -- "Изменения" --> modified;
 	modified -- "git add" --> staged;
